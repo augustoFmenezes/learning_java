@@ -1,1 +1,1 @@
-Neste repositório estão exercícios da minha graduação em Ciências da Computação, na Universidade Católica de Santos, realizados em JAVA, com o objetivo de documentar a evolução nos meus estudos nessa linguagem.
+Neste repositório estão exercícios realizados por mim, em JAVA, com o objetivo de documentar a evolução nos meus estudos nessa linguagem.
