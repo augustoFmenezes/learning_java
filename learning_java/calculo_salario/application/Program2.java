@@ -9,17 +9,17 @@ public class Program2 {
 	public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-
-        Funcionario funcionario = new Funcionario();
         
         System.out.println("Insira o nome do funcionário: ");
-        funcionario.nome = sc.nextLine();
+        String nome = sc.nextLine();
         
         System.out.println("Insira o salário bruto do funcionário: ");
-        funcionario.salario_bruto = sc.nextDouble();
+        double salario_bruto = sc.nextDouble();
         
         System.out.println("Insira o imposto do salário: ");
-        funcionario.imposto = sc.nextDouble();
+        double imposto = sc.nextDouble();
+        
+        Funcionario funcionario = new Funcionario(nome, salario_bruto, imposto);
         
         System.out.println("Funcionario: " + funcionario);
         

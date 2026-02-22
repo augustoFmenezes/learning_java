@@ -2,8 +2,14 @@ package entities;
 
 public class Funcionario {
 	public String nome;
-	public Double salario_bruto;
-	public Double imposto;
+	public double salario_bruto;
+	public double imposto;
+	
+	public Funcionario(String nome, double salario_bruto, double imposto) {
+		this.nome = nome;
+		this.salario_bruto = salario_bruto;
+		this.imposto = imposto;
+	}
 	
 	public double salarioLiquido() {
 		return salario_bruto - imposto;
