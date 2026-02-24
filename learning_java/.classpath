@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="calculo_salario"/>
 	<classpathentry kind="src" path="notas_estudantes"/>
 	<classpathentry kind="src" path="conversor_dolar"/>
+	<classpathentry kind="src" path="exercicio_encapsulamento"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
