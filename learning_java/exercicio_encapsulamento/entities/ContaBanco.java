@@ -8,7 +8,12 @@ public class ContaBanco {
 	public ContaBanco(int numero_conta, String nome_titular) {
 		this.numero_conta = numero_conta;
 		this.nome_titular = nome_titular;
-		this.saldo = 0;
+	}
+	
+	public ContaBanco(int numero_conta, String nome_titular, double deposito_inicial) {
+		this.numero_conta = numero_conta;
+		this.nome_titular = nome_titular;
+		valorDeposito(deposito_inicial);
 	}
 
 	public int getNumeroConta() {
@@ -24,7 +29,7 @@ public class ContaBanco {
 	}
 
 	public void valorDeposito(double valor) {
-		this.saldo += valor;
+		saldo += valor;
 	}
 	
 	public double getSaldo() {
@@ -32,7 +37,7 @@ public class ContaBanco {
 	}
 	
 	public void valorSaque(double valor) {
-		this.saldo -= valor + 5;
+		saldo -= valor + 5;
 	}
 	
 	public String toString() {
