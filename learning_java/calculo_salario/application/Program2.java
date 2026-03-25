@@ -2,7 +2,7 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Funcionario;
+import entities.Funcionario1;
 
 public class Program2 {
 
@@ -19,7 +19,7 @@ public class Program2 {
         System.out.println("Insira o imposto do salário: ");
         double imposto = sc.nextDouble();
         
-        Funcionario funcionario = new Funcionario(nome, salario_bruto, imposto);
+        Funcionario1 funcionario = new Funcionario1(nome, salario_bruto, imposto);
         
         System.out.println("Funcionario: " + funcionario);
         
