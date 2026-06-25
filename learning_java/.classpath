@@ -13,6 +13,7 @@
 	<classpathentry kind="src" path="exercicio_vetores"/>
 	<classpathentry kind="src" path="exercicio_listas"/>
 	<classpathentry kind="src" path="exercicios_matrizes"/>
-	<classpathentry kind="src" path="enumeracao"/>
+	<classpathentry kind="src" path="exercicio_enumeracao"/>
+	<classpathentry kind="src" path="exercicio_composição"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
