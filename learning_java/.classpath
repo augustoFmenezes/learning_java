@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="exercicios_matrizes"/>
 	<classpathentry kind="src" path="exercicio_enumeracao"/>
 	<classpathentry kind="src" path="exercicio_composição"/>
+	<classpathentry kind="src" path="exercicios_composição2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
